@@ -1,6 +1,6 @@
 # GEM: Geometric Erasure by Contrastive Velocity Matching in Rectified Flows
 
-[![ICML Paper](https://img.shields.io/badge/ICML_Paper-EC6500?style=for-the-badge&logo=bookstack&logoColor=white)](https://openreview.net/forum?id=NBMCwxTRSA)&nbsp;&nbsp;&nbsp;[![License](https://img.shields.io/badge/MIT_License-F5A300?style=for-the-badge)](https://opensource.org/license/mit)
+[![ICML Paper](https://img.shields.io/badge/ICML_Paper-EC6500?style=for-the-badge&logo=bookstack&logoColor=white)](https://icml.cc/virtual/2026/poster/64476)&nbsp;&nbsp;&nbsp;[![License](https://img.shields.io/badge/MIT_License-F5A300?style=for-the-badge)](https://opensource.org/license/mit)
 
 > **ICML 2026 Spotlight · Seoul**
 > Official implementation of *"GEM: Geometric Erasure by Contrastive Velocity Matching in Rectified Flows"*
