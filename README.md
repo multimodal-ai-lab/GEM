@@ -1,11 +1,18 @@
-# GEM: Geometric Erasure by Contrastive Velocity Matching in Rectified Flows
+# 💎 GEM: Geometric Erasure by Contrastive Velocity Matching in Rectified Flows (ICML 2026)
 
-[![ICML Paper](https://img.shields.io/badge/ICML_Paper-EC6500?style=for-the-badge&logo=bookstack&logoColor=white)](https://icml.cc/virtual/2026/poster/64476)&nbsp;&nbsp;&nbsp;[![License](https://img.shields.io/badge/MIT_License-F5A300?style=for-the-badge)](https://opensource.org/license/mit)
+<p align="left-aligned">
+  <a href="https://arxiv.org/abs/2606.00140"><img src="https://img.shields.io/badge/Paper-arXiv-005393?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper on arXiv"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-4ec9ff?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="MIT License"></a>
+</p>
 
-> **ICML 2026 Spotlight · Seoul**
-> Official implementation of *"GEM: Geometric Erasure by Contrastive Velocity Matching in Rectified Flows"*
+<p align="center">
+  <strong>ICML 2026 (Spotlight)</strong> &nbsp;·&nbsp; 🇰🇷 Seoul &nbsp;·&nbsp; Official PyTorch implementation<br>
+  <em>"GEM: Geometric Erasure by Contrastive Velocity Matching in Rectified Flows"</em>
+</p>
 
 ![Teaser](assets/teaser.png)
+
+<p align="center"><em><strong>GEM</strong> removes targeted concepts from text-to-image rectified flow transformers, including nudity, gory content, and rights-protected concepts, while preserving overall model utility.</em></p>
 
 While the rapid adoption of multimodal generative models offers immense potential, it has also increased the risks of harmful content synthesis, deepfakes, and copyright infringements. To address these challenges, concept erasure has emerged as a prospective safeguard. However, as the field gradually transitions from U-Net-based diffusion models to Rectified Flow Transformers, erasure research has struggled to keep pace. In this work, we introduce GEM, a simple but highly effective erasure framework for Rectified Flow models. As part of our contribution, we establish a principled bridge between trajectory-based unlearning grounded in Generative Flow Networks and classic teacher-guided erasure: we translate trajectory-based signals into a teacher-guided flow-matching setup that unifies the strengths of both paradigms. Concretely, a teacher provides complementary attraction and repulsion signals that we combine into a single geometric guidance objective, yielding targeted suppression of unwanted concepts while preserving benign generation.
 
